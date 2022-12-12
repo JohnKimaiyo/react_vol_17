@@ -8,8 +8,9 @@ import Myname from "./component/Myname";
 import Mycount from "./component/Mycount";
 import Form from "./component/Form";
 import Users from "./component/Users";
-import Event from "./component/Event"
+import Event from "./component/Event";
 import Range from "./component/Range";
+import Submit from "./component/Submit";
 function App() {
   return (
     <div className="App">
@@ -23,8 +24,9 @@ function App() {
       <Mycount />
       <Form />
       <Users />
-      <Event/>
-      <Range/>
+      <Event />
+      <Range />
+      <Submit />
     </div>
   );
 }
